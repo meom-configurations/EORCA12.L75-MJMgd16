@@ -1,0 +1,183 @@
+   <domain_definition>
+   <domain_group id="grid_T">
+         <domain id="grid_T" long_name="grid T"/>
+	 <!--   My zoom: example of hand defined zoom   -->
+         <domain id="myzoom" domain_ref="grid_T" > <zoom_domain id="myzoom" ibegin="10" jbegin="10" ni="5" nj="5" /> </domain>
+	 <!--   Eq section   -->
+         <domain id="EqT"> <zoom_domain id="EqT" ibegin="1" jbegin="0000" ni="0000" nj="1" /> </domain>
+         <!--   TAO   -->
+         <!--   137e   -->
+         <domain id="2n137eT"> <zoom_domain id="2n137eT" ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5n137eT"> <zoom_domain id="5n137eT" ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8n137eT"> <zoom_domain id="8n137eT" ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   147e   -->
+         <domain id="0n147eT"> <zoom_domain id="0n147eT" ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2n147eT"> <zoom_domain id="2n147eT" ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5n147eT"> <zoom_domain id="5n147eT" ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   156e   -->
+         <domain id="5s156eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2s156eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n156eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2n156eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5n156eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8n156eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   165e   -->
+         <domain id="8s165eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5s165eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2s165eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n165eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2n165eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5n165eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8n165eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   180w   -->
+         <domain id="8s180wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5s180wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2s180wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n180wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2n180wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5n180wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8n180wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   170w   -->
+         <domain id="8s170wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5s170wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2s170wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n170wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2n170wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5n170wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8n170wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   155w   -->
+         <domain id="8s155wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5s155wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2s155wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n155wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2n155wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5n155wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8n155wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   140w   -->
+         <domain id="8s140wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5s140wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2s140wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n140wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2n140wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5n140wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8n140wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   125w   -->
+         <domain id="8s125wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5s125wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2s125wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n125wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2n125wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5n125wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8n125wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   110w   -->
+         <domain id="8s110wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5s110wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2s110wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n110wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2n110wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5n110wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8n110wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   95w   -->
+         <domain id="8s95wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5s95wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2s95wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n95wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="2n95wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5n95wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8n95wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   RAMA   -->
+         <!--   55e   -->
+         <domain id="16s55eT"> <zoom_domain id=" "    ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="12s55eT"> <zoom_domain id=" "    ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8s55eT"> <zoom_domain id=" "     ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="4s55eT"> <zoom_domain id=" "     ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="1.5s55eT"> <zoom_domain id=" "   ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n55eT"> <zoom_domain id=" "     ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="1.5n55eT"> <zoom_domain id=" "   ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="4n55eT"> <zoom_domain id=" "     ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+            <!--   65e   -->
+         <domain id="15n65eT"> <zoom_domain id=" "    ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+            <!--   67e   -->
+         <domain id="16s67eT"> <zoom_domain id=" "    ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="12s67eT"> <zoom_domain id=" "    ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8s67eT"> <zoom_domain id=" "     ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="4s67eT"> <zoom_domain id=" "     ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="1.5s67eT"> <zoom_domain id=" "   ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n67eT"> <zoom_domain id=" "     ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="1.5n67eT"> <zoom_domain id=" "   ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="4n67eT"> <zoom_domain id=" "     ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8n67eT"> <zoom_domain id=" "     ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   80.5e   -->
+         <domain id="16s80.5eT"> <zoom_domain id=" "  ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="12s80.5eT"> <zoom_domain id=" "  ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8s80.5eT"> <zoom_domain id=" "   ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="4s80.5eT"> <zoom_domain id=" "   ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="1.5s80.5eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n80.5eT"> <zoom_domain id=" "   ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="1.5n80.5eT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="4n80.5eT"> <zoom_domain id=" "   ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   90e   -->
+         <domain id="1.5s90eT"> <zoom_domain id=" "   ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n90eT"> <zoom_domain id=" "     ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="1.5n90eT"> <zoom_domain id=" "   ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="4n90eT"> <zoom_domain id=" "     ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8n90eT"> <zoom_domain id=" "     ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="12n90eT"> <zoom_domain id=" "    ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="15n90eT"> <zoom_domain id=" "    ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   95e   -->
+         <domain id="16s95eT"> <zoom_domain id=" "    ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="12s95eT"> <zoom_domain id=" "    ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8s95eT"> <zoom_domain id=" "     ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="5s95eT"> <zoom_domain id=" "     ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   PIRATA   -->
+         <!--   38w-30w   -->
+         <domain id="19s34wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="14s32wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8s30wT"> <zoom_domain id=" "  ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n35wT"> <zoom_domain id=" "  ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="4n38wT"> <zoom_domain id=" "  ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="8n38wT"> <zoom_domain id=" "  ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="12n38wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="15n38wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="20n38wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   23w   -->
+         <domain id="0n23wT"> <zoom_domain id=" "  ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="4n23wT"> <zoom_domain id=" "  ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="12n23wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="21n23wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   10w   -->
+         <domain id="10s10wT"> <zoom_domain id=" " ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="6s10wT"> <zoom_domain id=" "  ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <domain id="0n10wT"> <zoom_domain id=" "  ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+         <!--   0e   -->
+         <domain id="0n0eT"> <zoom_domain id=" "   ibegin="0000" jbegin="0000" ni="1" nj="1" /> </domain>
+      </domain_group>
+
+      <domain_group id="grid_U">
+         <domain id="grid_U" long_name="grid U"/>
+         <!--   Eq section   -->
+         <domain id="EqU"> <zoom_domain id=" " ibegin="1" jbegin="0000" ni="0000" nj="1" /> </domain>
+      </domain_group>
+
+      <domain_group id="grid_V">
+        <domain id="grid_V" long_name="grid V"/>
+      </domain_group>
+
+      <domain_group id="grid_W">
+         <domain id="grid_W" long_name="grid W"/>
+         <!--   Eq section   -->
+         <domain id="EqW"> <zoom_domain id=" " ibegin="1" jbegin="0000" ni="0000" nj="1" /> </domain>
+      </domain_group>
+
+      <domain_group id="scalarpoint"> 
+         <domain id="scalarpoint" long_name="scalar"/> 
+         <!-- 
+         <domain id="1point" ibegin="1" jbegin="1" ni="1" nj="1" /> 
+         --> 
+      </domain_group>
+
+      <domain_group id="gznl">
+         <domain id="ptr" long_name="zonal mean grid" ibegin="0000"  jbegin="1" ni="1" nj="0000" />
+      </domain_group>
+
+   </domain_definition>    
