@@ -49,7 +49,8 @@ This repository hold the code, and configuration files usefull for running this 
      * **ICB** files : 16 iceberg related variables.
      
 ### Run time files:
-   Most of the run time files are indicated in the namelist files, except for :
-      * bathymetry : ```EORCA12_bathymetry_v2.5.nc```
-      * coordinates : ```EORCA12_coordinates.nc```
-      * bottom friction : ```EORCA12_bfr2d_UKmod.nc ```
+   Most of the run time files are indicated in the namelist files, except for:
+   
+     * bathymetry : ```EORCA12_bathymetry_v2.5.nc```
+     * coordinates : ```EORCA12_coordinates.nc```
+     * bottom friction : ```EORCA12_bfr2d_UKmod.nc ```
