@@ -24,16 +24,16 @@ This repository hold the code, and configuration files usefull for running this 
  4. no explicit lateral viscosity  ( UBS scheme does it)
  5. use laplacian isopycnal diffusivity for tracers.
  
- ### Forcing:
+### Forcing:
   1. Atmospheric forcing is DFS5.2, with ```CORE bulk formulae``` 
   2. SSS restoring toward WOA9 with a piston velocity of 167 mm/day ( 60 days/10 meters).
   3. Run-off from Dai-Trenberth as usual, except around Antarctica ( explicit iceberg calving and ice-shelf melting).
   
-  ### Antarctic fresh water fluxes:
+### Antarctic fresh water fluxes:
   1. use of ICB module to represent iceberg calving and melting explicitely (Merino et al )
   2. use ice-shelf parameterization to represent melting ( Mathiot et al.).
   
-  ### XIOS output ( all file in netcdf4 with deflation level 1).
+### XIOS output ( all file in netcdf4 with deflation level 1).
   1. Due to vvl use weighted average (e3 ) when relevant.
   2. 1d output (170 Gb/year)
      * **gridTsurf** files :SST, SSS, SST, MXL
@@ -48,8 +48,8 @@ This repository hold the code, and configuration files usefull for running this 
      * **icemod3** files : 22 LIM3 variables.
      * **ICB** files : 16 iceberg related variables.
      
-   ### Run time files:
-      Most of the run time files are indicated in the namelist files, except for :
+### Run time files:
+   Most of the run time files are indicated in the namelist files, except for :
       * bathymetry : ```EORCA12_bathymetry_v2.5.nc```
       * coordinates : ```EORCA12_coordinates.nc```
       * bottom friction : ```EORCA12_bfr2d_UKmod.nc ```
